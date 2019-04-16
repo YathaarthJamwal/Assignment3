@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/primary"
+            android:title="Primary"
+            android:icon="@drawable/facebook"/>
+
+        <item
+            android:id="@+id/send"
+            android:title="Send"
+            android:icon="@drawable/facebook"/>
+
+        <item
+            android:id="@+id/contact"
+            android:title="Contact"
+            android:icon="@drawable/facebook"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/facebook"/>
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/facebook"/>
+    </group>
+</menu>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HelpFragment">
+
+    <Button
+        android:id="@+id/help_butt"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="Press for Help"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/chat_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="-75dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginRight="154dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="CHAT"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="122dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="38dp"
+        android:text="Help"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:text="The button does nothing."
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:text="Click to start a chat."
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:typeface="normal" />
+
+</RelativeLayout>
